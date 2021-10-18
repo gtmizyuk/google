@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Розширений пошук Google</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2875/2875404.png">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a href="images.html">Зображення</a></li>
+                <li><a href="index.html">Звичайний пошук</a></li>
+            </ul>
+        </div>
+        <div class="form-search">
+            <form action="https://google.com/search">
+                <table>
+                    <tr>
+                        <td class="search-text">Знайти сторінки, що містять...</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>усі ці слова:</td>
+                        <td><input class="query-advanced" type="text" name="as_q"></td>
+                    </tr>
+                    <tr>
+                        <td>точне слово або фразу:</td>
+                        <td><input class="query-advanced" type="text" name="as_epq"></td>
+                    </tr>
+                    <tr>
+                        <td>будь-яке з цих слів:</td>
+                        <td><input class="query-advanced" type="text" name="as_oq"></td>
+                    </tr>
+                    <tr>
+                        <td>жодне з цих слів:</td>
+                        <td><input class="query-advanced" type="text" name="as_eq"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="button-search button-search-advanced" type="submit" value="Розширений пошук"></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
