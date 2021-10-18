@@ -73,6 +73,8 @@
 }
 
 .menu ul li a {
+    font-family: arial, sans-serif;
+    font-size: 13px;
     text-decoration: none;
     color: #212121;   
 }
